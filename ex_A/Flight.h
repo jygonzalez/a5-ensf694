@@ -1,16 +1,18 @@
-//
-//  Flight.h
-//  Flight Hash Table Using Linked List
-//
-//  Created by Mahmood Moussavi on 2024-05-25.
-//
+/**
+ *  File Name: Flight.h
+ *  Assignment: ENSF 694 Summer 2024 - Lab 5 Exercise A
+ *  Created by: Mahmood Moussavi on 2024-05-25.
+ *  Completed by: Yael Gonzalez
+ *  Submission Date: August 2, 2024
+ */
 
 #ifndef Flight_hpp
 #define Flight_hpp
-#include "Point2.h"
+#include "Point.h"
 
 // Flight class to represent a flight
-class Flight {
+class Flight
+{
 public:
     string flightNumber;
     Point origin;
